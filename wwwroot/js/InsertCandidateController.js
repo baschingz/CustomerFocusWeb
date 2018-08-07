@@ -24,12 +24,14 @@ app.controller("InsertCandidateController", function ($scope, $http) {
                 params: e,
                 headers: { 'Content-Type': 'application/json' }
             }
+            $http.defaults.headers.common.Authorization = 'Bearer ' + localStorage.token;
             $http(req).then(function (response) {
                 //debugger;
                 alert('บันทึกสำเร็จค่ะ');
                 $scope.registerForm = {};
             }, function (response) {
                 alert('fail');
+                window.location.href = "https://localhost:44309";
             });
         }
         else {

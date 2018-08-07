@@ -90,7 +90,7 @@ using CustomerFocusWeb.Models;
             WriteLiteral("     <select class=\"form-control\" ng-model=\"registerForm.computer_lang\" id=\"\">\r\n                ");
             EndContext();
             BeginContext(1173, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f0cbb467fe147ccbb755d17d7bf0b2f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7a7bae1796e4fa6adf5ac890606f1e0", async() => {
                 BeginContext(1215, 10, true);
                 WriteLiteral("กรุณาเลือก");
                 EndContext();
@@ -121,7 +121,7 @@ using CustomerFocusWeb.Models;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1252, 103, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0761a620c8fc4734b0297974be757fd5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7761f23436744dea1da74e254993ce3", async() => {
                 BeginContext(1321, 25, true);
                 WriteLiteral("{{sk.computer_lang_name}}");
                 EndContext();
@@ -148,7 +148,7 @@ using CustomerFocusWeb.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1536, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98ae38ad8ffe4d9d99718c2ba6912025", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45e9caf3faff486da2ca343f26688074", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
